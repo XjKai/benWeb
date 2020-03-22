@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pebble-3.1.2-jar-with-dependencies">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/webWork/web/WEB-INF/lib/pebble-3.1.2-jar-with-dependencies.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
