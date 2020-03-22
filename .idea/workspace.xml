@@ -8,379 +8,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c8071f5-3861-4629-a198-26b1ff7640b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/pebble_3_1_2_jar_with_dependencies.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/ArticleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/impl/ArticleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/impl/ArticleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/META-INF/webWork.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/pojo/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/pojo/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/service/ArticleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/service/impl/ArticleServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/srcFileManage/NewsFilesPathData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/srcFileManage/NewsFilesPathData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/test/ArticleDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/test/ArticleDaoImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/articleModify/ArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/articleModify/ArticleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/user/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/user/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/admin/adminPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/admin/adminPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/admin/adminPageChart.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/admin/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/ttt.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/images/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/images/tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/images/user.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/about.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/css/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/css/ionicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/css/swiper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/fontawesome-webfont.eot_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/fontawesome-webfont.eot_v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/fontawesome-webfont.svg_v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/fontawesome-webfont.ttf_v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/fontawesome-webfont.woff2_v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/fontawesome-webfont.woff_v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/glyphicons-halflings-regular.eot_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/ionicons.ttf_v=2.0.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/ionicons.woff_v=2.0.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-bold-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-bold-webfont.eot_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-bold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-hairline-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-hairline-webfont.eot_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-hairline-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-hairline-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-light-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-light-webfont.eot_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-light-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-regular-webfont.eot_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/fonts/montserrat-regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/ico.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/about-bg (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/about-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/bottom-banner1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/bottom-banner2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/bottom-banner3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/cbp-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/head1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/head2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/head3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/head4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/hexing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/icon-ai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/icon-beizi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/icon-m.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/icon-n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/icon-xin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/icon-yun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/join-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/photo/1-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/photo/1-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/photo/1-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/photo/1-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/photo/1-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/product1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/scale-item1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/scale-item2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/scale-item3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/slide-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/spr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/spr2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/team-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/tips.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/two.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/water-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/zhineng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/img/zuanli.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/js/color-switcher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/js/jquery.lighter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/js/modernizr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/js/own-menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/js/rollSlide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/js/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/news.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/articleHTML.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/css/bootsnav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/css/flaticon-set.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/css/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/css/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/css/themify-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/fonts/Flaticon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/fonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/fonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/fonts/themify.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/YTPlayer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/bootsnav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/count-to.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/equal-height.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/imagesloaded.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/isotope.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/jquery-1.12.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/jquery.appear.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/jquery.magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/modernizr.custom.13711.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/progress-bar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/assets/js/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/newsArticle/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/arrow_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/arrow_left2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/arrow_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/arrow_right2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/arrowleft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/arrowright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/boxed_bgtile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/bullet_boxed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/bullets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/bullets2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/coloredbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/gridtile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/gridtile_3x3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/gridtile_3x3_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/gridtile_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/large_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/large_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/navigdots.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/navigdots_bgtile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/shadow1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/shadow2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/shadow3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/small_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/small_left_boxed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/small_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/small_right_boxed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/assets/timer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/css/settings.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/images/gradient/g30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/images/gradient/g40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/js/jquery.tp.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/rs-plugin/rs-plugin/js/jquery.tp.t.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/sass/common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/pages/team.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/registSucc.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/show.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322215354_851.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322215404_153.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322215636_620.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322215644_66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322220150_84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322220158_89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322222210_654.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322222302_915.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322222326_339.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322222408_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322222425_800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322222804_559.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/blog-standard.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/blog-standard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/blog1.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/blog1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/services-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/services-grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/team-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/team-grid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork_war/webWork_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork_war/webWork_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/ArticleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/impl/ArticleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/impl/ArticleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/META-INF/webWork.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/pojo/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/pojo/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/service/ArticleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/service/impl/ArticleServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/srcFileManage/NewsFilesPathData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/srcFileManage/NewsFilesPathData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/test/ArticleDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/test/ArticleDaoImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/articleModify/ArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/articleModify/ArticleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/user/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/user/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/dao/ArticleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/dao/impl/ArticleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/dao/impl/ArticleDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/pojo/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/pojo/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/service/impl/ArticleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/srcFileManage/NewsFilesPathData.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/srcFileManage/NewsFilesPathData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/test/ArticleDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/test/ArticleDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/web/articleModify/ArticleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/web/articleModify/ArticleServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/web/user/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/web/user/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/admin/adminPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/admin/adminPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/images/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/images/tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/images/user.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/about.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/css/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/css/ionicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/css/swiper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/fontawesome-webfont.eot_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/fontawesome-webfont.eot_v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/fontawesome-webfont.svg_v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/fontawesome-webfont.ttf_v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/fontawesome-webfont.woff2_v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/fontawesome-webfont.woff_v=4.7.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/glyphicons-halflings-regular.eot_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/ionicons.ttf_v=2.0.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/ionicons.woff_v=2.0.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-bold-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-bold-webfont.eot_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-bold-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-hairline-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-hairline-webfont.eot_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-hairline-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-hairline-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-light-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-light-webfont.eot_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-light-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-regular-webfont.eot_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/fonts/montserrat-regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/ico.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/about-bg (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/about-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/bottom-banner1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/bottom-banner2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/bottom-banner3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/cbp-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/head1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/head2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/head3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/head4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/hexing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/icon-ai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/icon-beizi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/icon-m.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/icon-n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/icon-xin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/icon-yun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/join-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/photo/1-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/photo/1-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/photo/1-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/photo/1-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/photo/1-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/product1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/scale-item1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/scale-item2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/scale-item3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/slide-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/spr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/spr2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/team-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/tips.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/two.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/water-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/zhineng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/img/zuanli.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/js/color-switcher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/js/jquery.lighter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/js/modernizr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/js/own-menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/js/rollSlide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/js/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/news.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/articleHTML.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/css/bootsnav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/css/flaticon-set.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/css/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/css/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/css/themify-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/fonts/Flaticon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/fonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/fonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/fonts/themify.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/YTPlayer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/bootsnav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/count-to.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/equal-height.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/imagesloaded.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/isotope.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/jquery-1.12.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/jquery.appear.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/jquery.magnific-popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/modernizr.custom.13711.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/progress-bar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/assets/js/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/newsArticle/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/arrow_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/arrow_left2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/arrow_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/arrow_right2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/arrowleft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/arrowright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/boxed_bgtile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/bullet_boxed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/bullets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/bullets2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/coloredbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/gridtile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/gridtile_3x3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/gridtile_3x3_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/gridtile_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/large_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/large_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/navigdots.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/navigdots_bgtile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/shadow1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/shadow2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/shadow3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/small_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/small_left_boxed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/small_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/small_right_boxed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/assets/timer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/css/settings.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/images/gradient/g30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/images/gradient/g40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/js/jquery.tp.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/rs-plugin/rs-plugin/js/jquery.tp.t.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/sass/common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/pages/team.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/registSucc.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/show.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/webWork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/webWork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/blog-standard.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/blog-standard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/blog1.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/blog1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/services-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/services-grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/team-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/team-grid.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -424,6 +90,24 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="server" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="server" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="server" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="book: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="server" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="book: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_article: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -648,6 +332,9 @@
       <workItem from="1584779264711" duration="5438000" />
       <workItem from="1584796470688" duration="12116000" />
       <workItem from="1584845908560" duration="38963000" />
+      <workItem from="1584889018456" duration="695000" />
+      <workItem from="1584890190908" duration="2759000" />
+      <workItem from="1584896052156" duration="1905000" />
     </task>
     <servers />
   </component>
@@ -679,70 +366,70 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="466" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584886580944" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584887828918">
+    <state width="1252" height="208" key="GridCell.Tab.0.bottom" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584887828918" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584887828918">
+    <state width="1252" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="208" key="GridCell.Tab.0.center" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584887828918" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584887828918">
+    <state width="1252" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="208" key="GridCell.Tab.0.left" timestamp="1584897970415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584887828918" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584887828918">
+    <state width="1252" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584897970415" />
+    <state width="1252" height="208" key="GridCell.Tab.0.right" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584887828918" />
-    <state width="1252" height="237" key="GridCell.Tab.1.bottom" timestamp="1584887828914">
+    <state width="1252" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="208" key="GridCell.Tab.1.bottom" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="237" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584887828914" />
-    <state width="1252" height="237" key="GridCell.Tab.1.center" timestamp="1584887828914">
+    <state width="1252" height="208" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="208" key="GridCell.Tab.1.center" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="237" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584887828914" />
-    <state width="1252" height="237" key="GridCell.Tab.1.left" timestamp="1584887828914">
+    <state width="1252" height="208" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="208" key="GridCell.Tab.1.left" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="237" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584887828914" />
-    <state width="1252" height="237" key="GridCell.Tab.1.right" timestamp="1584887828914">
+    <state width="1252" height="208" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="208" key="GridCell.Tab.1.right" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="237" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584887828914" />
-    <state width="1252" height="237" key="GridCell.Tab.2.bottom" timestamp="1584887828914">
+    <state width="1252" height="208" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="208" key="GridCell.Tab.2.bottom" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="237" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584887828914" />
-    <state width="1252" height="237" key="GridCell.Tab.2.center" timestamp="1584887828914">
+    <state width="1252" height="208" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="208" key="GridCell.Tab.2.center" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="237" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1584887828914" />
-    <state width="1252" height="237" key="GridCell.Tab.2.left" timestamp="1584887828914">
+    <state width="1252" height="208" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="208" key="GridCell.Tab.2.left" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="237" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1584887828914" />
-    <state width="1252" height="237" key="GridCell.Tab.2.right" timestamp="1584887828914">
+    <state width="1252" height="208" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="208" key="GridCell.Tab.2.right" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="237" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1584887828914" />
-    <state width="1252" height="218" key="GridCell.Tab.3.bottom" timestamp="1584886124613">
+    <state width="1252" height="208" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="208" key="GridCell.Tab.3.bottom" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="218" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584886124613" />
-    <state width="1252" height="218" key="GridCell.Tab.3.center" timestamp="1584886124609">
+    <state width="1252" height="208" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="208" key="GridCell.Tab.3.center" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="218" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1584886124609" />
-    <state width="1252" height="218" key="GridCell.Tab.3.left" timestamp="1584886124609">
+    <state width="1252" height="208" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="208" key="GridCell.Tab.3.left" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="218" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1584886124609" />
-    <state width="1252" height="218" key="GridCell.Tab.3.right" timestamp="1584886124610">
+    <state width="1252" height="208" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="208" key="GridCell.Tab.3.right" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="218" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1584886124610" />
+    <state width="1252" height="208" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
     <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1584077222726">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -751,10 +438,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="320" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584798748159" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584845909875">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584896104023">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584845909875" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584896104023" />
     <state x="485" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583992598972">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

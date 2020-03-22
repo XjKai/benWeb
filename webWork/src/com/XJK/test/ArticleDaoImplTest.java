@@ -27,6 +27,7 @@ public class ArticleDaoImplTest {
 
     @Test
     public void reOrderId(){
-       articleDao.reOrderId();
+         String sepa = java.io.File.separator;
+        System.out.println(sepa);
     }
 }

@@ -15,7 +15,7 @@ import java.util.Locale;
  */
 
 public class NewsFilesPathData {
-
+    static String sepa = File.separator;
 
     public static List<Article> getArticleList() {
         ArticleService articleService =new ArticleServiceImpl();
@@ -38,14 +38,20 @@ public class NewsFilesPathData {
     }
 
     /**
-     * 清除attached文件夹中不需要的文件
+     * 清除attached文件夹中不需要的文件t_article
      * @param realPath
      */
     public static int delArticleSrc(List<String> delPath,String realPath){
         int delCount = 0;
         if(delPath == null){return 0;}
         for (String src : delPath) {
-            src = realPath+src.replaceAll("/","\\\\");
+            src = src.substring(1);     //去除多余的一个斜杠
+            String  realP = realPath.replaceAll("web.*","");
+            if (sepa .equals("\\") ){    //winds要转换
+                src = realP +src.replaceAll("/","\\\\");
+            } else {                      //linux
+                src = realP +src;
+            }
             File file = new File(src);
             if (file.exists()){
                 file.delete();

@@ -17,6 +17,7 @@ public class Article {
     public String imgPath = "";
     public List<String> contentSrcPath;
     private Pattern pattern = Pattern.compile("src=\"[^\"]*\"?");
+    String sepa = java.io.File.separator;
 
     public Article() {
     }
@@ -55,9 +56,10 @@ public class Article {
         Matcher m = pattern.matcher(content);
         while (m.find()) {
             s = content.substring(m.start(), m.end());
-            s = s.replaceAll("src=\"/webWork/","");
+            s = s.replaceAll("src=\"","");
             s = s.replaceAll("\"","");
             this.contentSrcPath.add(s);
+           // src="/attached/image/20200322/20200322230634_975.jpg" alt="" />
         }
         this.contentSrcPath.add(imgPath);
     }
@@ -66,7 +68,7 @@ public class Article {
         Matcher m = pattern.matcher(img);
         while (m.find()) {
             this.imgPath = img.substring(m.start(), m.end());
-            this.imgPath = this.imgPath.replaceAll("src=\"/webWork/","");
+            this.imgPath = this.imgPath.replaceAll("src=\"","");
             this.imgPath = this.imgPath.replaceAll("\"","");
         }
     }
