@@ -9,44 +9,38 @@
   <component name="ChangeListManager">
     <list default="true" id="4c8071f5-3861-4629-a198-26b1ff7640b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/META-INF/webWork.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/pojo/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/pojo/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/impl/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/impl/BaseDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/srcFileManage/NewsFilesPathData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/srcFileManage/NewsFilesPathData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/test/ArticleDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/test/ArticleDaoImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322215354_851.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322215404_153.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322215636_620.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322215644_66.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322220150_84.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322220158_89.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322222210_654.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322222302_915.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322222326_339.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322222408_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322222425_800.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/attached/image/20200322/20200322222804_559.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/blog-standard.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/blog-standard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/articleModify/ArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/articleModify/ArticleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/pages/contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/pages/contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/pages/index.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/pages/index.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/pages/news.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/pages/news.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/pages/newsMore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/pages/newsMore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/admin/adminPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/admin/adminPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/admin/assets/js/custom-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/admin/assets/js/custom-scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/admin/assets/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/admin/assets/js/custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/blog1.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/blog1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/services-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/services-grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/team-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/team-grid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork_war/webWork_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork_war/webWork_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/webWork/META-INF/webWork.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/pojo/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/pojo/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/impl/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/impl/BaseDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/srcFileManage/NewsFilesPathData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/srcFileManage/NewsFilesPathData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/test/ArticleDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/test/ArticleDaoImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/pojo/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/pojo/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/articleModify/ArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/articleModify/ArticleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/pages/contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/pages/contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/pages/index.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/pages/index.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/pages/news.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/pages/news.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/pages/newsMore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/pages/newsMore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/dao/impl/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/dao/impl/BaseDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/srcFileManage/NewsFilesPathData.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/srcFileManage/NewsFilesPathData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/test/ArticleDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/test/ArticleDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/blog-standard.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/blog-standard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/web/articleModify/ArticleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/web/articleModify/ArticleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/web/pages/contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/web/pages/contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/web/pages/index.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/web/pages/index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/web/pages/news.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/web/pages/news.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/web/pages/newsMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/web/pages/newsMore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/admin/adminPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/admin/adminPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/admin/assets/js/custom-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/admin/assets/js/custom-scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/admin/assets/js/custom.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/web/blog1.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/blog1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/web/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/services-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/services-grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/team-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/team-grid.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,9 +109,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -159,7 +155,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/webWork/web" />
@@ -170,16 +167,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.XJK.test" />
       <recent name="com.XJK.dao.impl" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\bneWeb\webWork\web" />
-      <recent name="D:\bneWeb\webWork\web\WEB-INF" />
-      <recent name="D:\bneWeb\webWork\web\pages" />
-      <recent name="D:\bneWeb\webWork\web\pages\newsArticle\assets" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.XJK.web.messageModify" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\bneWeb\webWork\web" />
@@ -187,6 +179,16 @@
       <recent name="D:\bneWeb\webWork\web\pages\assets" />
       <recent name="D:\bneWeb\webWork\web\admin" />
       <recent name="D:\bneWeb\webWork\web\admin\assets" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\bneWeb\webWork\web\admin\assets\js" />
+      <recent name="D:\bneWeb\webWork\web" />
+      <recent name="D:\bneWeb\webWork\web\WEB-INF" />
+      <recent name="D:\bneWeb\webWork\web\pages" />
+      <recent name="D:\bneWeb\webWork\web\pages\newsArticle\assets" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.webWork">
@@ -201,6 +203,54 @@
       <option name="PACKAGE_NAME" value="com.XJK.test" />
       <option name="MAIN_CLASS_NAME" value="com.XJK.test.ArticleDaoImplTest" />
       <option name="METHOD_NAME" value="reOrderId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageServiceImplTest.addMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.XJK.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.XJK.test" />
+      <option name="MAIN_CLASS_NAME" value="com.XJK.test.MessageServiceImplTest" />
+      <option name="METHOD_NAME" value="addMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageServiceImplTest.deleteMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.XJK.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.XJK.test" />
+      <option name="MAIN_CLASS_NAME" value="com.XJK.test.MessageServiceImplTest" />
+      <option name="METHOD_NAME" value="deleteMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageServiceImplTest.getAllMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.XJK.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.XJK.test" />
+      <option name="MAIN_CLASS_NAME" value="com.XJK.test.MessageServiceImplTest" />
+      <option name="METHOD_NAME" value="getAllMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -278,6 +328,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MessageServiceImplTest.deleteMessage" />
+        <item itemvalue="JUnit.MessageServiceImplTest.getAllMessage" />
+        <item itemvalue="JUnit.MessageServiceImplTest.addMessage" />
         <item itemvalue="JUnit.ArticleDaoImplTest.reOrderId" />
       </list>
     </recent_temporary>
@@ -335,6 +388,7 @@
       <workItem from="1584889018456" duration="695000" />
       <workItem from="1584890190908" duration="2759000" />
       <workItem from="1584896052156" duration="1905000" />
+      <workItem from="1584943558973" duration="9871000" />
     </task>
     <servers />
   </component>
@@ -354,10 +408,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="266" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584696932034" />
-    <state x="900" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1584881121397">
+    <state x="900" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1584947856728">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="900" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584881121397" />
+    <state x="900" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584947856728" />
+    <state x="499" y="187" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1584947977415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="187" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1584947977415" />
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584805085038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -366,54 +424,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="466" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584886580944" />
-    <state width="1252" height="208" key="GridCell.Tab.0.bottom" timestamp="1584897970416">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584954814652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
-    <state width="1252" height="208" key="GridCell.Tab.0.center" timestamp="1584897970416">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584954814652" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584954814652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
-    <state width="1252" height="208" key="GridCell.Tab.0.left" timestamp="1584897970415">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584954814652" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584954814652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584897970415" />
-    <state width="1252" height="208" key="GridCell.Tab.0.right" timestamp="1584897970416">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584954814652" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584954814652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
-    <state width="1252" height="208" key="GridCell.Tab.1.bottom" timestamp="1584897970416">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584954814652" />
+    <state width="1252" height="129" key="GridCell.Tab.1.bottom" timestamp="1584954814648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="208" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
-    <state width="1252" height="208" key="GridCell.Tab.1.center" timestamp="1584897970416">
+    <state width="1252" height="129" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584954814648" />
+    <state width="1252" height="129" key="GridCell.Tab.1.center" timestamp="1584954814648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="208" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
-    <state width="1252" height="208" key="GridCell.Tab.1.left" timestamp="1584897970416">
+    <state width="1252" height="129" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584954814648" />
+    <state width="1252" height="129" key="GridCell.Tab.1.left" timestamp="1584954814648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="208" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
-    <state width="1252" height="208" key="GridCell.Tab.1.right" timestamp="1584897970416">
+    <state width="1252" height="129" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584954814648" />
+    <state width="1252" height="129" key="GridCell.Tab.1.right" timestamp="1584954814648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="208" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
-    <state width="1252" height="208" key="GridCell.Tab.2.bottom" timestamp="1584897970416">
+    <state width="1252" height="129" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584954814648" />
+    <state width="1252" height="129" key="GridCell.Tab.2.bottom" timestamp="1584954814648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="208" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
-    <state width="1252" height="208" key="GridCell.Tab.2.center" timestamp="1584897970416">
+    <state width="1252" height="129" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584954814648" />
+    <state width="1252" height="129" key="GridCell.Tab.2.center" timestamp="1584954814648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="208" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
-    <state width="1252" height="208" key="GridCell.Tab.2.left" timestamp="1584897970416">
+    <state width="1252" height="129" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1584954814648" />
+    <state width="1252" height="129" key="GridCell.Tab.2.left" timestamp="1584954814648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="208" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
-    <state width="1252" height="208" key="GridCell.Tab.2.right" timestamp="1584897970416">
+    <state width="1252" height="129" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1584954814648" />
+    <state width="1252" height="129" key="GridCell.Tab.2.right" timestamp="1584954814648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="208" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1584897970416" />
+    <state width="1252" height="129" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1584954814648" />
     <state width="1252" height="208" key="GridCell.Tab.3.bottom" timestamp="1584897970416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -438,10 +496,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="320" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584798748159" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584896104023">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584943555207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584896104023" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584943555207" />
     <state x="485" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583992598972">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -450,18 +508,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1584110638211" />
-    <state x="540" y="114" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584875838563">
+    <state x="540" y="114" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584948014183">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="540" y="114" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1584875838563" />
+    <state x="540" y="114" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1584948014183" />
     <state x="178" y="0" key="new project wizard" timestamp="1584434593278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1584434593278" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1584268849443">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1584952682951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584268849443" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584952682951" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584879711575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

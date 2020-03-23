@@ -1,6 +1,8 @@
 package com.XJK.web.pages;
 
 import com.XJK.pojo.Article;
+import com.XJK.service.ArticleService;
+import com.XJK.service.impl.ArticleServiceImpl;
 import com.XJK.srcFileManage.NewsFilesPathData;
 import com.XJK.web.ViewEngine;
 
@@ -23,7 +25,9 @@ public class index extends HttpServlet {
         response.setHeader("Content-Type","text/html; charset=UTF-8");
         try {
             //index页面显示前三次动态
-            List<Article> allArticle = NewsFilesPathData.getArticleList();
+            ArticleService articleService =new ArticleServiceImpl();
+            List<Article> allArticle = articleService.getAllArticle();    //所有文章
+
             List<Article> articles = new ArrayList<>();
             for (int i = 0; i < allArticle.size(); i++) {
                 if (i<3){

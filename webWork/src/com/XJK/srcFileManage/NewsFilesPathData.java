@@ -17,25 +17,6 @@ import java.util.Locale;
 public class NewsFilesPathData {
     static String sepa = File.separator;
 
-    public static List<Article> getArticleList() {
-        ArticleService articleService =new ArticleServiceImpl();
-        List<Article> articleList = articleService.getAllArticle();
-        return articleList;
-    }
-
-
-    /**
-     * 将所有文章内容合并为一个字符串
-     * @param list
-     * @return
-     */
-    public static String getAddStringOfContent(List<Article> list){
-        StringBuilder stringBuilder = new StringBuilder();
-        for (Article article : list){
-            stringBuilder.append(article.getContent());
-        }
-        return stringBuilder.toString();
-    }
 
     /**
      * 清除attached文件夹中不需要的文件t_article

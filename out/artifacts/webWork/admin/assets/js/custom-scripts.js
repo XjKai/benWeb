@@ -23,10 +23,34 @@
 
             /* MORRIS BAR CHART
 			-----------------------------------------*/
-        var   chart = Morris.Bar({
+            Morris.Bar({
                 element: 'morris-bar-chart',
                 data: [{
                     y: '2006',
+                    a: 100,
+                    b: 90
+                }, {
+                    y: '2007',
+                    a: 75,
+                    b: 65
+                }, {
+                    y: '2008',
+                    a: 50,
+                    b: 40
+                }, {
+                    y: '2009',
+                    a: 75,
+                    b: 65
+                }, {
+                    y: '2010',
+                    a: 50,
+                    b: 40
+                }, {
+                    y: '2011',
+                    a: 75,
+                    b: 65
+                }, {
+                    y: '2012',
                     a: 100,
                     b: 90
                 }],
@@ -40,7 +64,7 @@
                 hideHover: 'auto',
                 resize: true
             });
-
+	 
 
 
             /* MORRIS DONUT CHART
@@ -59,7 +83,7 @@
                 }],
 				   colors: [
     '#A6A6A6','#1cc09f',
-    '#A8E9DC'
+    '#A8E9DC' 
   ],
                 resize: true
             });
@@ -162,7 +186,7 @@
       lineColors:['gray','#1cc09f']
 	  
             });
-            // chart.setData([{"xkey": 'jjjj', "ykeys": [20, 50], "labels": ['Se A', 'Ses B'],}]);
+           
      
         },
 
@@ -170,7 +194,6 @@
             mainApp.initFunction();
 
         }
-
 
     }
     // Initializing ///
@@ -193,4 +216,3 @@
     });
 
 }(jQuery));
-

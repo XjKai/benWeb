@@ -1,6 +1,8 @@
 package com.XJK.web.pages;
 
 import com.XJK.pojo.Article;
+import com.XJK.service.ArticleService;
+import com.XJK.service.impl.ArticleServiceImpl;
 import com.XJK.srcFileManage.NewsFilesPathData;
 import com.XJK.web.ViewEngine;
 
@@ -26,7 +28,9 @@ public class newsMore extends HttpServlet {
             String i = request.getParameter("index");
             Integer index = (i == null ? 1 : Integer.valueOf(i));
 
-            List<Article> allArticle = NewsFilesPathData.getArticleList();
+            ArticleService articleService =new ArticleServiceImpl();
+            List<Article> allArticle = articleService.getAllArticle();    //所有文章
+
             Map<String, Object> m = new HashMap<>();  //渲染的数据
             index = index <= allArticle.size() ? index : allArticle.size();
 

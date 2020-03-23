@@ -8,12 +8,7 @@
     "use strict";
     var mainApp = {
 
-
         initFunction: function () {
-
-            var mydate = new Date();
-
-
             /*MENU 
             ------------------------------------*/
             $('#main-menu').metisMenu();
@@ -26,22 +21,21 @@
                 }
             });
 
-
             /* MORRIS BAR CHART
 			-----------------------------------------*/
             Morris.Bar({
                 element: 'morris-bar-chart',
                 data: [{
                     y: '2006',
-                    a: mydate.getMinutes(),
-                    b: mydate.getMinutes()
+                    a: 100,
+                    b: 90
                 }, {
                     y: '2007',
-                    a: 5,
-                    b: 5
+                    a: 75,
+                    b: 65
                 }, {
                     y: '2008',
-                    a: 5,
+                    a: 50,
                     b: 40
                 }, {
                     y: '2009',
@@ -203,7 +197,4 @@
         mainApp.initFunction();
     });
 
-
-
 }(jQuery));
-

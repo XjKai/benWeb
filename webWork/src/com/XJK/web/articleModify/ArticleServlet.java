@@ -27,8 +27,6 @@ public class ArticleServlet extends BaseServlet {
             String introduct = request.getParameter("introduct");
             String img = request.getParameter("img");
             String content = request.getParameter("content");
-
-
             if ( !articleService.existArticle(title)){
                 //文章添加
                 nResult =  articleService.addArticle(new Article(title,NewsFilesPathData.getdate(),introduct,img,content));

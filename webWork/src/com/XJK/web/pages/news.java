@@ -1,6 +1,8 @@
 package com.XJK.web.pages;
 
 import com.XJK.pojo.Article;
+import com.XJK.service.ArticleService;
+import com.XJK.service.impl.ArticleServiceImpl;
 import com.XJK.srcFileManage.NewsFilesPathData;
 import com.XJK.web.ViewEngine;
 
@@ -27,8 +29,9 @@ public class news extends HttpServlet {
             String p = request.getParameter("page");
             Integer page = (p == null? 1:Integer.valueOf(p))-1;
 
+            ArticleService articleService =new ArticleServiceImpl();
+            List<Article> allArticle = articleService.getAllArticle();    //所有文章
 
-            List<Article> allArticle = NewsFilesPathData.getArticleList();
             List<Article> articles = new ArrayList<>();
             //取出三篇
             for (int i = page*3; i < (page+1)*3; i++) {

@@ -5,10 +5,17 @@
 <%@ page import="com.XJK.pojo.Article" %>
 <%@ page import="com.XJK.srcFileManage.NewsFilesPathData" %>
 <%@ page import="java.util.Map" %>
+<%@ page import="com.XJK.pojo.Message" %>
+<%@ page import="com.XJK.service.MessageService" %>
+<%@ page import="com.XJK.service.impl.MessageServiceImpl" %>
 <%
     String username = (String) request.getSession().getAttribute("user");
-    List<Article> articles = NewsFilesPathData.getArticleList();
-    int mapLen = articles.size();
+
+    ArticleService articleService =new ArticleServiceImpl();
+    List<Article> articles = articleService.getAllArticle();    //所有文章
+
+    MessageService messageService = new MessageServiceImpl();
+    List<Message> messages = messageService.getAllMessage();     //所有留言
 
     //获取动态路径 格式：   http://localhost:8080/test/
     String path = request.getContextPath();
@@ -25,11 +32,10 @@
     <link href="admin/assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FontAwesome Styles-->
     <link href="admin/assets/css/font-awesome.css" rel="stylesheet" />
-    <!-- Morris Chart Styles-->
-    <link href="admin/assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
     <!-- Custom Styles-->
     <link href="admin/assets/css/custom-styles.css" rel="stylesheet" />
-
+    <!-- TABLE STYLES-->
+    <link href="admin/assets/js/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
 
     <script charset="utf-8"   src="kindeditor/kindeditor-all.js"></script>
     <script   charset="utf-8" src="kindeditor/lang/zh-CN.js"></script>
@@ -174,78 +180,117 @@
                         <%--点击不跳转--%>
                         <a  href="javascript:;" onclick="pageInnerOnView()"><i class="fa fa-dashboard"></i> 点击量</a>
                     </li>
+                    <li>
+                        <%--点击不跳转--%>
+                        <a  href="javascript:;" onclick="pageMessage()"><i class="fa fa-dashboard"></i> 留言</a>
+                    </li>
                 </ul>
             </div>
         </nav>
         <!-- /. NAV SIDE  -->
         <div id="page-wrapper" >
-<%--            当前页面--%>
+            <%--当前页面标识--%>
             <div  class="alert alert-info">
                 <center id="page_now">修改</center>
             </div>
 
-            <div id="page-inner"  >
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="page-header">
-                            Dashboard <small>Summary of your App</small>
-                        </h1>
-                    </div>
+            <%--点击量数据--%>
+            <div id="page-inner" class="panel panel-default">
+                <div class="panel-heading">
+                    网站访问数据
                 </div>
-
-				<div class="row">
-				<div class="col-md-12">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							Line Chart
-						</div>
-						<div class="panel-body">
-							<div id="morris-line-chart"></div>
-						</div>
-					</div>
-					</div>
-				</div>
-
-
-                <div class="row">
-                    <div class="col-md-9 col-sm-12 col-xs-12">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                Bar Chart Example
-                            </div>
-                            <div class="panel-body">
-                                <div id="morris-bar-chart"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-12 col-xs-12">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                Donut Chart Example
-                            </div>
-                            <div class="panel-body">
-                                <div id="morris-donut-chart"></div>
-                            </div>
-                        </div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                            <thead>
+                            <tr>
+                                <th>Rendering engine</th>
+                                <th>Browser</th>
+                                <th>Platform(s)</th>
+                                <th>Engine version</th>
+                                <th>CSS grade</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="odd gradeX">
+                                <td>Trident</td>
+                                <td>Internet Explorer 4.0</td>
+                                <td>Win 95+</td>
+                                <td class="center">4</td>
+                                <td class="center">X</td>
+                            </tr>
+                            <tr class="even gradeC">
+                                <td>Trident</td>
+                                <td>Internet Explorer 5.0</td>
+                                <td>Win 95+</td>
+                                <td class="center">5</td>
+                                <td class="center">C</td>
+                            </tr>
+                            <tr class="odd gradeA">
+                                <td>Trident</td>
+                                <td>Internet Explorer 5.5</td>
+                                <td>Win 95+</td>
+                                <td class="center">5.5</td>
+                                <td class="center">A</td>
+                            </tr>
+                            <tr class="even gradeA">
+                                <td>Trident</td>
+                                <td>Internet Explorer 6</td>
+                                <td>Win 98+</td>
+                                <td class="center">6</td>
+                                <td class="center">A</td>
+                            </tr>
+                            <tr class="odd gradeA">
+                                <td>Trident</td>
+                                <td>Internet Explorer 7</td>
+                                <td>Win XP SP2+</td>
+                                <td class="center">7</td>
+                                <td class="center">A</td>
+                            </tr>
+                            <tr class="even gradeA">
+                                <td>Trident</td>
+                                <td>AOL browser (AOL desktop)</td>
+                                <td>Win XP</td>
+                                <td class="center">6</td>
+                                <td class="center">A</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Gecko</td>
+                                <td>Firefox 1.0</td>
+                                <td>Win 98+ / OSX.2+</td>
+                                <td class="center">1.7</td>
+                                <td class="center">A</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Gecko</td>
+                                <td>Firefox 1.5</td>
+                                <td>Win 98+ / OSX.2+</td>
+                                <td class="center">1.8</td>
+                                <td class="center">A</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Gecko</td>
+                                <td>Firefox 2.0</td>
+                                <td>Win 98+ / OSX.2+</td>
+                                <td class="center">1.8</td>
+                                <td class="center">A</td>
+                            </tr>
+                            <tr class="gradeA">
+                                <td>Gecko</td>
+                                <td>Firefox 3.0</td>
+                                <td>Win 2k+ / OSX.3+</td>
+                                <td class="center">1.9</td>
+                                <td class="center">A</td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
 
                 </div>
-				<div class="row">
-				<div class="col-md-12">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							Area Chart
-						</div>
-						<div class="panel-body">
-							<div id="morris-area-chart"></div>
-						</div>
-					</div>
-					</div>
-				</div>
-                <!-- /. ROW  -->
             </div>
             <script> $("#page-inner").hide();//隐藏</script>
 
+            <%--修改页面--%>
             <div id="page-article" style="margin-top: 30px">
                 <form role="form">
                     <div class="form-group has-success">
@@ -271,11 +316,47 @@
 
                 </form>
                     <div>
-                        <a href="javascript:;" id="delBtn" class="btn btn-primary " style="float: left" >删除</a>
+                        <a href="javascript:;" id="delBtn" class="btn btn-danger " style="float: left" >删除</a>
                         <a href="javascript:;" id="saveBtn" class="btn btn-primary " style="float: right" >提交修改</a>
 
                     </div>
                 </div>
+            <%--空白块--%>
+            <div class="row"></div>
+
+            <%--留言--%>
+            <div id="page-message" class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                网页留言
+                            </div>
+                            <div class="panel-body">
+                                <div class="panel-group" id="accordion">
+                                <%  count = 0; %>
+                                <% for(Message message:messages){ count++;%>
+                                <div class="panel panel-default">
+                                    <a  class="btn btn-danger btn-sm " onclick="delMessage(this.name)" name="<%=message.getId()%>" style="float: right;" >删除</a>
+                                    <div class="panel-heading">
+                                        <h5 class="panel-title" >
+                                            <a style="color: #0e76a8" data-toggle="collapse" data-parent="#accordion" href="#collapse<%=count%>"  class="collapsed"><%=message.getMname()+"  ( "+message.getMemail()+"  ;  "+message.getMphone()+" )"%></a>
+                                        </h5>
+
+                                    </div>
+                                    <div id="collapse<%=count%>" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <%=message.getMmessage()%>
+                                        </div>
+                                    </div>
+                                </div>
+                                <%}%>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <script> $("#page-message").hide();//隐藏</script>
+
         </div>
         <!-- /. PAGE WRAPPER  -->
     </div>
@@ -287,35 +368,46 @@
     <script src="admin/assets/js/bootstrap.min.js"></script>
     <!-- Metis Menu Js -->
     <script src="admin/assets/js/jquery.metisMenu.js"></script>
-    <!-- Morris Chart Js -->
-    <script src="admin/assets/js/morris/raphael-2.1.0.min.js"></script>
-    <script src="admin/assets/js/morris/morris.js"></script>
-	<script src="admin/assets/js/easypiechart.js"></script>
-	<script src="admin/assets/js/easypiechart-data.js"></script>
-    <!-- Custom Js -->
+    <!-- DATA TABLE SCRIPTS -->
+    <script src="admin/assets/js/dataTables/jquery.dataTables.js"></script>
+    <script src="admin/assets/js/dataTables/dataTables.bootstrap.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#dataTables-example').dataTable();
+        });
+    </script>
     <script src="admin/assets/js/custom-scripts.js"></script>
-
-
 
     <%--隐藏页面与显示页面--%>
     <script>
         function pageInnerOnView () {
-            $("#page-inner").show();   //显示
-            $("#page-article").hide();    //隐藏
+            $("#page-inner").show();   //显示点击量页面
+            $("#page-article").hide();  //隐藏修改页面
+            $("#page-message").hide();  //隐藏留言页面
             $("#page_now").html("数据");
              window.scrollTo(0, 0);    //页面跳到顶部
         }
         function newsOnView () {
-            $("#page-article").show();   //显示
-            $("#page-inner").hide();    //隐藏
-            $("#delBtn").show();    //显示
+            $("#page-article").show();   //显示修改页面
+            $("#page-inner").hide();    //隐藏点击量页面
+            $("#page-message").hide();//隐藏留言页面
+            $("#delBtn").show();      //显示删除按钮
             $("#page_now").html("修改");
             window.scrollTo(0, 0);    //页面跳到顶部
         }
+        function pageMessage () {
+            $("#page-message").show();   //显示留言页面
+            $("#page-article").hide();   //隐藏修改页面
+            $("#page-inner").hide();    //隐藏点击量页面
+            $("#page_now").html("留言");
+            window.scrollTo(0, 0);    //页面跳到顶部
+        }
+
         function addNews() {
-            $("#page-article").show();   //显示
-            $("#page-inner").hide();    //隐藏
-            $("#delBtn").hide();    //隐藏
+            $("#page-article").show();   //显示修改页面
+            $("#page-inner").hide();    //隐藏点击量页面
+            $("#delBtn").hide();       //隐藏删除按钮
+            $("#page-message").hide();  //隐藏留言页面
             $("#page_now").html("添加");
             //清空内容
             $("#title_id").val("");
@@ -337,7 +429,24 @@
             window.editor1.html(content);
             newsOnView();
         }
-
+        // 删除留言
+        function delMessage(name) {
+                $.ajax({
+                    url:   'delMessage',
+                    data:{
+                        'id'     : name,
+                    },
+                    type: 'post',
+                    timeout: 1000,
+                    success: function (data, status) {
+                        alert("留言删除成功");
+                        location.reload();
+                    },
+                    fail: function (err, status) {
+                        alert("留言删除失败");
+                    }
+                });
+        }
     </script>
 
     <%--循环检查登陆状态--%>
@@ -362,40 +471,6 @@
         }
     </script>
 
-<%--    &lt;%&ndash;要改成点击清除&ndash;%&gt;--%>
-<%--    &lt;%&ndash;获取所有文章的资源路径,并通知ArticleServlet.jsp更新文件，清除不用的文件&ndash;%&gt;--%>
-<%--    <div style="display:none" id="news"><%=NewsFilesPathData.getAddStringOfContent(articleList) %> </div>--%>
-<%--    <script>--%>
-<%--        window.onload = function () {--%>
-<%--            var imgPath  = document.getElementById("news").getElementsByTagName("img");--%>
-<%--            var srcFilesArr = [];--%>
-<%--            if(imgPath.length >0) {--%>
-<%--                for (var i = 0; i < imgPath.length; i++) {--%>
-<%--                    srcFilesArr.push(imgPath[i].src);--%>
-<%--                }--%>
-<%--            }--%>
-<%--            $.ajax({--%>
-<%--                url:   'articleServlet?action=updateArticleSrcFiles',--%>
-<%--                dataType: "json",--%>
-<%--                traditional: true,--%>
-<%--                type: 'post',--%>
-<%--                data:{--%>
-<%--                    'srcFiles' : srcFilesArr--%>
-<%--                },--%>
-<%--                timeout: 1000,--%>
-<%--                success: function (data, status) {--%>
-<%--                    if(data.success == true){--%>
-<%--                        alert(data.msg);--%>
-<%--                    }else if(data.success == false){--%>
-<%--                        alert(data.msg);--%>
-<%--                    }--%>
-<%--                },--%>
-<%--                fail: function (err, status) {--%>
-<%--                    console.log(err)--%>
-<%--                }--%>
-<%--            });--%>
-<%--        }--%>
-<%--    </script>--%>
 </body>
 
 </html>
