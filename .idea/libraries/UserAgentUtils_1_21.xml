@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="UserAgentUtils-1.21">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/webWork/web/WEB-INF/lib/UserAgentUtils-1.21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

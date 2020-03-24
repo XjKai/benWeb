@@ -21,6 +21,7 @@ public interface MessageService {
     /**
      * 根据id删除message
      * @param id
+     * 耗时
      * @return
      */
     public int deleteMessage(Long id);

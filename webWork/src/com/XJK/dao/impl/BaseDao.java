@@ -1,6 +1,7 @@
 package com.XJK.dao.impl;
 
 import com.XJK.pojo.Article;
+import com.XJK.pojo.Click;
 import com.XJK.pojo.Message;
 import com.XJK.pojo.User;
 import com.XJK.utile.JdbcUtils;
@@ -126,6 +127,34 @@ public abstract class BaseDao {
                 messages.add( new Message(rs));
             }
             return messages;
+        } catch (SQLException e){
+            e.printStackTrace();
+        } finally {
+            JdbcUtils.close(connection);
+        }
+        return null;
+    }
+    /**
+     * 查询message
+     * @param sql
+     * @param args
+     * @return
+     */
+    public List<Click> queryClick(String sql, Object ...args){
+        Connection connection =JdbcUtils.getConnection();
+        try {
+            PreparedStatement ps = connection.prepareStatement(sql);
+            int count = 1;
+            for(Object i : args){
+                ps.setObject(count, i); // 注意：索引从1开始
+                count++;
+            }
+            List<Click> clicks = new ArrayList<>();
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                clicks.add( new Click(rs));
+            }
+            return clicks;
         } catch (SQLException e){
             e.printStackTrace();
         } finally {

@@ -3,16 +3,13 @@ package com.XJK.web.user;
 import com.XJK.pojo.User;
 import com.XJK.service.UserService;
 import com.XJK.service.impl.UserServiceImpl;
-import com.XJK.web.ViewEngine;
 import org.json.simple.JSONObject;
-
 import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.io.PrintWriter;
+
 import java.util.*;
 
 public class UserServlet extends BaseServlet {
@@ -25,12 +22,12 @@ public class UserServlet extends BaseServlet {
         String password = request.getParameter("password");
         //用户名密码正确
         if (userService.login(new User(null,username,password,null)) != null ){
-            isLoginAndRemove(username);
-            //将用户加入session
-            request.getSession().setAttribute("user",username);
-            userSession.put(username,request.getSession());
+            if (isLogin(username,request)){
+                //将用户加入session
+                request.getSession().setAttribute("user",username);
+                userSession.put(username,request.getSession());
+            }
             //请求重定向
-//            response.sendRedirect(proPath+"/admin/articleAdd.jsp");
             response.sendRedirect(proPath+"/admin/adminPage.jsp");
         } else {
             request.getSession().invalidate();
@@ -103,30 +100,20 @@ public class UserServlet extends BaseServlet {
     }
 
 
-
     /**
-     * @return
-     * @throws ServletException
-     * @throws IOException
-     */
-    protected void test(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Map<String,String> m = new HashMap<>();
-        m.put("user","XJK");
-        ViewEngine viewEngine = new ViewEngine(request.getServletContext());
-        viewEngine.render(m,response.getWriter(),"hello.html");
-
-    }
-
-    /**
-     * 检查用户是否登陆，若已登录，则下线已登录的用户
+     * 检查用户是否登陆，且当前的sessionId与已经记录的Id不同（即不为同一浏览器登陆），若已登录，则下线已登录的用户
      * @param username
-     * @return
+     * @return true：需要更新session ； false：不需要更新session
      */
-    protected boolean isLoginAndRemove(String username) {
-        if ( (userSession.get(username)) != null){     //当前用户已登录
+    protected boolean isLogin(String username,HttpServletRequest request)throws ServletException, IOException {
+        if((userSession.get(username)) == null){    //未登录，需要更新session
+            return true;
+        } else if ( (userSession.get(username)) != null && request.getSession().getId() != userSession.get(username).getId()){  //新的浏览完登陆，需要更新session
             userSession.get(username).invalidate(); //将其下线
             return true;
+        } else {     //同一浏览器登陆不需要更新session
+            return false;
         }
-        return false;
     }
+
 }

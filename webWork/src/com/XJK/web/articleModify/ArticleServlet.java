@@ -74,24 +74,6 @@ public class ArticleServlet extends BaseServlet {
         NewsFilesPathData.delArticleSrc(delPath,realPath);  //删除文章对应的资源
     }
 
-    /**
-     *  更新文章的图片资源，删除多余图片
-     * @param request
-     * @param response
-     * @throws ServletException
-     * @throws IOException
-     */
-    protected void updateArticleSrcFiles(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-       // String savePath = pageContext.getServletContext().getRealPath("/") + "attached/";
-        String[] srcFiles = request.getParameterValues("srcFiles");
-
-        String realPath=this.getServletContext().getRealPath("/");   //真实的物理路径  D:\bneWeb\out\artifacts\webWork\
-
-        String path = request.getContextPath();
-        String urlPath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";    //URL路径 http://localhost:8080/webWork/
-
-    }
-
 
 
 }

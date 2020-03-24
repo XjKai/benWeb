@@ -34,13 +34,15 @@ public interface ArticleDao {
     public int deleteArticleByTitle(String title);
 
     /**
+     * 重新排序id
+     */
+    public  void reOrderId();
+
+    /**
      * 根据文章名更新文章
 
      * @return
      */
-    public  void reOrderId();
-
-
     public  int updateArticleByTitle(Article article);
 
 

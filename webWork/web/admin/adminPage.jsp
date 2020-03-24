@@ -8,6 +8,9 @@
 <%@ page import="com.XJK.pojo.Message" %>
 <%@ page import="com.XJK.service.MessageService" %>
 <%@ page import="com.XJK.service.impl.MessageServiceImpl" %>
+<%@ page import="com.XJK.pojo.Click" %>
+<%@ page import="com.XJK.service.ClickService" %>
+<%@ page import="com.XJK.service.impl.ClickServiceImpl" %>
 <%
     String username = (String) request.getSession().getAttribute("user");
 
@@ -16,6 +19,9 @@
 
     MessageService messageService = new MessageServiceImpl();
     List<Message> messages = messageService.getAllMessage();     //所有留言
+
+    ClickService clickService = new ClickServiceImpl();
+    List<Click> clicks = clickService.getAllClick();          //所有点击数据
 
     //获取动态路径 格式：   http://localhost:8080/test/
     String path = request.getContextPath();
@@ -57,7 +63,7 @@
                 fileManagerJson :   'kindeditor/jsp/file_manager_json.jsp',
                 themeType: 'simple',
                 items : [
-                    'image'
+                    'source','|','image'
                 ],
                 allowFileManager : true
             });
@@ -197,91 +203,31 @@
             <%--点击量数据--%>
             <div id="page-inner" class="panel panel-default">
                 <div class="panel-heading">
-                    网站访问数据
+                    网站访问数据(总访问量: <%=clicks.size()%>)
                 </div>
                 <div class="panel-body">
                     <div class="table-responsive">
                         <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                             <thead>
                             <tr>
-                                <th>Rendering engine</th>
-                                <th>Browser</th>
-                                <th>Platform(s)</th>
-                                <th>Engine version</th>
-                                <th>CSS grade</th>
+                                <th>序号</th>
+                                <th>IP</th>
+                                <th>浏览器</th>
+                                <th>系统</th>
+                                <th>时间</th>
                             </tr>
                             </thead>
                             <tbody>
+                            <%  count = 0; %>
+                            <% for (Click click : clicks) { count++; %>
                             <tr class="odd gradeX">
-                                <td>Trident</td>
-                                <td>Internet Explorer 4.0</td>
-                                <td>Win 95+</td>
-                                <td class="center">4</td>
-                                <td class="center">X</td>
+                                <td><%=count%></td>
+                                <td><%=click.getIp()%></td>
+                                <td><%=click.getBrowser()%></td>
+                                <td><%=click.getSystem()%></td>
+                                <td><%=click.getcDate()%>  <a  class="btn btn-danger btn-sm"  onclick="delClick(this.name)" name="<%=click.getId()%>"  style="float: right;" >删除</a></td>
                             </tr>
-                            <tr class="even gradeC">
-                                <td>Trident</td>
-                                <td>Internet Explorer 5.0</td>
-                                <td>Win 95+</td>
-                                <td class="center">5</td>
-                                <td class="center">C</td>
-                            </tr>
-                            <tr class="odd gradeA">
-                                <td>Trident</td>
-                                <td>Internet Explorer 5.5</td>
-                                <td>Win 95+</td>
-                                <td class="center">5.5</td>
-                                <td class="center">A</td>
-                            </tr>
-                            <tr class="even gradeA">
-                                <td>Trident</td>
-                                <td>Internet Explorer 6</td>
-                                <td>Win 98+</td>
-                                <td class="center">6</td>
-                                <td class="center">A</td>
-                            </tr>
-                            <tr class="odd gradeA">
-                                <td>Trident</td>
-                                <td>Internet Explorer 7</td>
-                                <td>Win XP SP2+</td>
-                                <td class="center">7</td>
-                                <td class="center">A</td>
-                            </tr>
-                            <tr class="even gradeA">
-                                <td>Trident</td>
-                                <td>AOL browser (AOL desktop)</td>
-                                <td>Win XP</td>
-                                <td class="center">6</td>
-                                <td class="center">A</td>
-                            </tr>
-                            <tr class="gradeA">
-                                <td>Gecko</td>
-                                <td>Firefox 1.0</td>
-                                <td>Win 98+ / OSX.2+</td>
-                                <td class="center">1.7</td>
-                                <td class="center">A</td>
-                            </tr>
-                            <tr class="gradeA">
-                                <td>Gecko</td>
-                                <td>Firefox 1.5</td>
-                                <td>Win 98+ / OSX.2+</td>
-                                <td class="center">1.8</td>
-                                <td class="center">A</td>
-                            </tr>
-                            <tr class="gradeA">
-                                <td>Gecko</td>
-                                <td>Firefox 2.0</td>
-                                <td>Win 98+ / OSX.2+</td>
-                                <td class="center">1.8</td>
-                                <td class="center">A</td>
-                            </tr>
-                            <tr class="gradeA">
-                                <td>Gecko</td>
-                                <td>Firefox 3.0</td>
-                                <td>Win 2k+ / OSX.3+</td>
-                                <td class="center">1.9</td>
-                                <td class="center">A</td>
-                            </tr>
+                            <%}%>
                             </tbody>
                         </table>
                     </div>
@@ -431,21 +377,39 @@
         }
         // 删除留言
         function delMessage(name) {
-                $.ajax({
-                    url:   'delMessage',
-                    data:{
-                        'id'     : name,
-                    },
-                    type: 'post',
-                    timeout: 1000,
-                    success: function (data, status) {
-                        alert("留言删除成功");
-                        location.reload();
-                    },
-                    fail: function (err, status) {
-                        alert("留言删除失败");
-                    }
-                });
+            $.ajax({
+                url:   'delMessage',
+                data:{
+                    'id'     : name,
+                },
+                type: 'post',
+                timeout: 1000,
+                success: function (data, status) {
+                    alert("留言删除成功");
+                    location.reload();
+                },
+                fail: function (err, status) {
+                    alert("留言删除失败");
+                }
+            });
+        }
+        // 删除浏览数据
+        function delClick(name) {
+            $.ajax({
+                url:   'delClick',
+                data:{
+                    'id'     : name,
+                },
+                type: 'post',
+                timeout: 1000,
+                success: function (data, status) {
+                    alert("条目删除成功");
+                    location.reload();
+                },
+                fail: function (err, status) {
+                    alert("条目删除失败");
+                }
+            });
         }
     </script>
 
