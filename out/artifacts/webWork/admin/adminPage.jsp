@@ -23,6 +23,9 @@
     ClickService clickService = new ClickServiceImpl();
     List<Click> clicks = clickService.getAllClick();          //所有点击数据
 
+    String onView = request.getParameter("onView");
+    onView = onView == null? "page-article": onView;
+
     //获取动态路径 格式：   http://localhost:8080/test/
     String path = request.getContextPath();
     String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -96,7 +99,7 @@
                     success: function (data, status) {
                         if(data.success == true){
                             alert(data.msg);
-                            location.reload();
+                            window.location.replace("<%=path%>/admin/adminPage.jsp?onView=page-article")
                         }else if(data.success == false){
                             alert(data.msg);
                             window.location.href="login.jsp";
@@ -116,7 +119,7 @@
                     success: function (data, status) {
                         if(data.success == true){
                             alert("删除成功");
-                            location.reload();
+                            window.location.replace("<%=path%>/admin/adminPage.jsp?onView=page-article")
                         }else if(data.success == false){
                         }
                     },
@@ -165,9 +168,9 @@
 		<div id="sideNav" href=""><i class="fa fa-caret-right"></i></div>
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
-                    <li>
+                    <li class="active">
                         <a href="javascript:;" onclick="newsOnView()"><i class="fa fa-sitemap"></i>修改<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level" >
+                        <ul class="nav nav-second-level collapse in" >
                             <% int count = 0; %>
                             <% for (Article article : articles) {  count++; %>
                             <li >
@@ -324,8 +327,26 @@
     </script>
     <script src="admin/assets/js/custom-scripts.js"></script>
 
-    <%--隐藏页面与显示页面--%>
+
+
+    <%--页面控制--%>
     <script>
+
+        var onView = "<%= onView %>";
+        if(onView == "page-inner"){
+            $("#page-inner").show();   //显示点击量页面
+            $("#page-article").hide();  //隐藏修改页面
+            $("#page-message").hide();  //隐藏留言页面
+        } else if (onView == "page-message"){
+            $("#page-inner").hide();   //隐藏点击量页面
+            $("#page-article").hide();  //隐藏修改页面
+            $("#page-message").show();  //显示留言页面
+        } else {
+            $("#page-inner").hide();   //隐藏点击量页面
+            $("#page-article").show();  //显示修改页面
+            $("#page-message").hide();  //隐藏留言页面
+        }
+
         function pageInnerOnView () {
             $("#page-inner").show();   //显示点击量页面
             $("#page-article").hide();  //隐藏修改页面
@@ -369,6 +390,7 @@
             var introduct = $("#introduct"+lisIindex).text();
             var img = $("#img"+lisIindex).html();
             var content = $("#content"+lisIindex).html();
+            // $("#titleList").addClass("active");
             $("#title_id").val(title.innerText);
             $("#introduct_id").val(introduct);
             window.editor2.html(img);
@@ -386,7 +408,7 @@
                 timeout: 1000,
                 success: function (data, status) {
                     alert("留言删除成功");
-                    location.reload();
+                    window.location.replace("<%=path%>/admin/adminPage.jsp?onView=page-message")
                 },
                 fail: function (err, status) {
                     alert("留言删除失败");
@@ -404,13 +426,14 @@
                 timeout: 1000,
                 success: function (data, status) {
                     alert("条目删除成功");
-                    location.reload();
+                    window.location.replace("<%=path%>/admin/adminPage.jsp?onView=page-inner")
                 },
                 fail: function (err, status) {
                     alert("条目删除失败");
                 }
             });
         }
+
     </script>
 
     <%--循环检查登陆状态--%>
