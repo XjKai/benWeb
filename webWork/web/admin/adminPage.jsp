@@ -352,7 +352,8 @@
             $("#page-article").hide();  //隐藏修改页面
             $("#page-message").hide();  //隐藏留言页面
             $("#page_now").html("数据");
-             window.scrollTo(0, 0);    //页面跳到顶部
+            window.history.pushState({},0,"<%=path%>/admin/adminPage.jsp?onView=page-inner");
+            window.scrollTo(0, 0);    //页面跳到顶部
         }
         function newsOnView () {
             $("#page-article").show();   //显示修改页面
@@ -360,6 +361,7 @@
             $("#page-message").hide();//隐藏留言页面
             $("#delBtn").show();      //显示删除按钮
             $("#page_now").html("修改");
+            window.history.pushState({},0,"<%=path%>/admin/adminPage.jsp?onView=page-article");
             window.scrollTo(0, 0);    //页面跳到顶部
         }
         function pageMessage () {
@@ -367,7 +369,9 @@
             $("#page-article").hide();   //隐藏修改页面
             $("#page-inner").hide();    //隐藏点击量页面
             $("#page_now").html("留言");
+            window.history.pushState({},0,"<%=path%>/admin/adminPage.jsp?onView=page-message");
             window.scrollTo(0, 0);    //页面跳到顶部
+
         }
 
         function addNews() {
@@ -384,6 +388,7 @@
             //获取富文本编辑器，清空内容
             window.editor1.html("");
             window.editor2.html("");
+            window.history.pushState({},0,"<%=path%>/admin/adminPage.jsp?onView=page-article");
         }
         function newsOnViewAndRePageView(titleList,title) {
             var lisIindex = titleList.substring(5);

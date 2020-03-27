@@ -2398,8 +2398,8 @@ div#bootcarousel {
 }
 
 .portfolio-area .portfolio-items .pf-item > .info {
-    padding: 30px;
-    padding-top: 45px;
+    padding: 15px;
+    padding-top: 35px;
     position: relative;
     z-index: 1;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -4244,4 +4244,8 @@ footer .f-item .twitter-item:last-child {
   z-index: 999999;
   background: url(assets/img/preloader.gif) center no-repeat #fff;
   text-align: center;
+}
+
+.hide {
+  display: none;
 }
