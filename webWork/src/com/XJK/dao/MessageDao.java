@@ -26,6 +26,10 @@ public interface MessageDao {
      */
     public int deleteMessageById(Long id);
 
-
+    /**
+     * 删除所有messgge
+     * @return
+     */
+    public int deleteAllMessage();
 
 }

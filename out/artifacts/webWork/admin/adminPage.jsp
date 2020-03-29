@@ -102,7 +102,7 @@
                             window.location.replace("<%=path%>/admin/adminPage.jsp?onView=page-article")
                         }else if(data.success == false){
                             alert(data.msg);
-                            window.location.href="login.jsp";
+                            // window.location.href="login.jsp";
                         }
                     },
                     fail: function (err, status) {

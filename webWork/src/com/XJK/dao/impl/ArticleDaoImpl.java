@@ -38,7 +38,7 @@ public class ArticleDaoImpl extends BaseDao implements ArticleDao {
      */
     @Override
     public List<Article> queryAllArticle() {
-        String sql = "select * from t_article";
+        String sql = "select * from t_article order by id desc";
         return queryArticle(sql);
     }
 

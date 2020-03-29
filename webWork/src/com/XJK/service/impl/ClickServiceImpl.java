@@ -28,4 +28,9 @@ public class ClickServiceImpl implements ClickService {
     public void reOrderClickId() {
         clickDao.reOrderId();
     }
+
+    @Override
+    public int clearClick() {
+        return clickDao.deleteAllClick();
+    }
 }

@@ -30,4 +30,10 @@ public interface ClickService {
      * 重新排序id
      */
     public void reOrderClickId();
+
+    /**
+     * 删除所有click
+     * @return
+     */
+    public int clearClick();
 }

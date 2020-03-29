@@ -33,4 +33,10 @@ public class ClickDaoImpl extends BaseDao implements ClickDao {
         update(sql2);
         update(sql3);
     }
+
+    @Override
+    public int deleteAllClick() {
+        String sql = "TRUNCATE t_click";
+        return update(sql);
+    }
 }

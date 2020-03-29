@@ -23,10 +23,13 @@ public class ArticleServlet extends BaseServlet {
         int nResult = 0;
         if(request.getSession().getAttribute("user") != null)  //判断当前是否是登陆状态
         {
+
             String title = request.getParameter("title");
             String introduct = request.getParameter("introduct");
             String img = request.getParameter("img");
             String content = request.getParameter("content");
+
+
             if ( !articleService.existArticle(title)){
                 //文章添加
                 nResult =  articleService.addArticle(new Article(title,NewsFilesPathData.getdate(),introduct,img,content));

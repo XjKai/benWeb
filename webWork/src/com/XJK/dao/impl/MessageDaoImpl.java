@@ -23,4 +23,10 @@ public class MessageDaoImpl extends BaseDao implements MessageDao {
         String sql = "delete from t_message where id = ?";
         return update(sql, id);
     }
+
+    @Override
+    public int deleteAllMessage() {
+        String sql = "TRUNCATE t_message";
+        return update(sql);
+    }
 }

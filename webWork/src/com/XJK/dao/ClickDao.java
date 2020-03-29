@@ -31,4 +31,9 @@ public interface ClickDao {
      */
     public  void reOrderId();
 
+    /**
+     * 删除所有click
+     * @return
+     */
+    public int deleteAllClick();
 }

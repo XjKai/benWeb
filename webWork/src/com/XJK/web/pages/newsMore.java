@@ -34,9 +34,9 @@ public class newsMore extends HttpServlet {
             Map<String, Object> m = new HashMap<>();  //渲染的数据
             index = index <= allArticle.size() ? index : allArticle.size();
 
-            m.put("article", allArticle.get(index - 1));
-            m.put("front", index <= 1 ? index : index - 1);   //前一页
-            m.put("rear", index >= allArticle.size() ? allArticle.size() : index + 1);    //后一页
+            m.put("article", allArticle.get(allArticle.size() - index));
+            m.put("rear", index <= 1 ? index : index - 1);   //前一页
+            m.put("front", index >= allArticle.size() ? allArticle.size() : index + 1);    //后一页
             viewEngine.render(m, response.getWriter(), "blog1.html");
         } catch (Exception e){
         viewEngine.render(null,response.getWriter(),"404.html");

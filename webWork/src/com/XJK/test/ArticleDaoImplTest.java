@@ -2,6 +2,7 @@ package com.XJK.test;
 
 import com.XJK.dao.ArticleDao;
 import com.XJK.dao.impl.ArticleDaoImpl;
+import com.XJK.pojo.Article;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -14,6 +15,7 @@ public class ArticleDaoImplTest {
 
     @Test
     public void saveArticle() {
+
     }
 
     @Test

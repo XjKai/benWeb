@@ -8,113 +8,178 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c8071f5-3861-4629-a198-26b1ff7640b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/banner/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/banner/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/banner/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/mission/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/6_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/9_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/14_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/617f7c84914939d75dec14fb2b0ade1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/图片11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/technology/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/technology/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/technology/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/technology/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/technology/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webWork/web/assets/video/v1.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/mission/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/META-INF/webWork.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/ClickDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/ClickDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/MessageDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/MessageDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/impl/ArticleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/impl/ArticleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/impl/ClickDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/impl/ClickDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/impl/MessageDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/dao/impl/MessageDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/service/ClickService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/service/ClickService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/service/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/service/MessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/service/impl/ClickServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/service/impl/ClickServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/service/impl/MessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/service/impl/MessageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/test/ArticleDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/test/ArticleDaoImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/articleModify/ArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/articleModify/ArticleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/pages/newsMore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/pages/newsMore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/user/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/WEB-INF/classes/com/XJK/web/user/UserServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/admin/adminPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/admin/adminPage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/QR.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/QR.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/about/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/about/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/banner/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/clients/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/clients/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/clients/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/clients/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/clients/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/clients/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/environment/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/environment/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/environment/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/banner/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/banner/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/banner/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/banner/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/banner/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/banner/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/blog/v1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/blog/v1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/blog/v3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/blog/v3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/dotted-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/dotted-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/error-thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/error-thumb.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/mission/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/mission/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/6_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/6_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/9_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/portfolio/9_9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/14_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/14_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/16.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/617f7c84914939d75dec14fb2b0ade1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/图片11.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/services/图片11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/shape-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/shape-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/shape.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/shape.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/subSucc.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/subSucc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/team/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/team/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/team/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/team/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/team/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/team/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/team/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/team/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/team/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/team/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/technology/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/technology/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/technology/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/technology/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/technology/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/technology/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/technology/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/assets/img/technology/5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/blog-standard.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/blog-standard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/services-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/services-grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webWork/team-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork/team-grid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webWork_war/webWork_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webWork_war/webWork_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/webWork/META-INF/webWork.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/ClickDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/ClickDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/MessageDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/MessageDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/impl/ArticleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/impl/ArticleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/impl/ClickDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/impl/ClickDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/impl/MessageDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/dao/impl/MessageDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/service/ClickService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/service/ClickService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/service/MessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/service/MessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/service/impl/ClickServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/service/impl/ClickServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/service/impl/MessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/service/impl/MessageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/test/ArticleDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/test/ArticleDaoImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/articleModify/ArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/articleModify/ArticleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/pages/newsMore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/pages/newsMore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/user/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webWork/com/XJK/web/user/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/dao/ClickDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/dao/ClickDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/dao/MessageDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/dao/MessageDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/dao/impl/ArticleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/dao/impl/ArticleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/dao/impl/ClickDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/dao/impl/ClickDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/dao/impl/MessageDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/dao/impl/MessageDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/service/ClickService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/service/ClickService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/service/impl/ClickServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/service/impl/ClickServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/service/impl/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/test/ArticleDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/test/ArticleDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/web/articleModify/ArticleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/web/articleModify/ArticleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/web/pages/newsMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/web/pages/newsMore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/src/com/XJK/web/user/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/src/com/XJK/web/user/UserServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/web/admin/adminPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/admin/adminPage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/QR.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/QR.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/about/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/about/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/banner/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/clients/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/clients/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/clients/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/clients/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/clients/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/clients/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/environment/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/environment/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/environment/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/banner/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/banner/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/banner/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/banner/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/banner/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/banner/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/blog/v1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/blog/v1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/blog/v3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/blog/v3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/dotted-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/dotted-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/error-thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/error-thumb.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/mission/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/mission/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/6_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/6_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/9_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/portfolio/9_9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/14_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/14_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/16.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/617f7c84914939d75dec14fb2b0ade1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/services/图片11.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/services/图片11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/shape-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/shape-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/shape.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/shape.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/subSucc.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/subSucc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/team/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/team/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/team/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/team/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/team/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/team/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/team/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/team/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/team/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/team/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/technology/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/technology/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/technology/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/technology/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/technology/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/technology/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/assets/img/technology/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/assets/img/technology/5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/web/blog-standard.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/blog-standard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webWork/web/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webWork/web/services-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/services-grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webWork/web/team-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/webWork/web/team-grid.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,6 +321,22 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.webWork">
+    <configuration name="ArticleDaoImplTest.saveArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.XJK.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.XJK.test" />
+      <option name="MAIN_CLASS_NAME" value="com.XJK.test.ArticleDaoImplTest" />
+      <option name="METHOD_NAME" value="saveArticle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClickServiceImplTest.addClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webWork" />
       <extension name="coverage">
@@ -315,22 +396,6 @@
       <option name="PACKAGE_NAME" value="com.XJK.test" />
       <option name="MAIN_CLASS_NAME" value="com.XJK.test.ClickServiceImplTest" />
       <option name="METHOD_NAME" value="reOrderClickId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MessageServiceImplTest.deleteMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.XJK.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.XJK.test" />
-      <option name="MAIN_CLASS_NAME" value="com.XJK.test.MessageServiceImplTest" />
-      <option name="METHOD_NAME" value="deleteMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -413,16 +478,16 @@
       <item itemvalue="JUnit.ClickServiceImplTest.deleteClick" />
       <item itemvalue="JUnit.ClickServiceImplTest.getAllClick" />
       <item itemvalue="JUnit.ClickServiceImplTest.reOrderClickId" />
-      <item itemvalue="JUnit.MessageServiceImplTest.deleteMessage" />
+      <item itemvalue="JUnit.ArticleDaoImplTest.saveArticle" />
       <item itemvalue="Tomcat Server.webWork" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArticleDaoImplTest.saveArticle" />
         <item itemvalue="JUnit.ClickServiceImplTest.reOrderClickId" />
         <item itemvalue="JUnit.ClickServiceImplTest.deleteClick" />
         <item itemvalue="JUnit.ClickServiceImplTest.getAllClick" />
         <item itemvalue="JUnit.ClickServiceImplTest.addClick" />
-        <item itemvalue="JUnit.MessageServiceImplTest.deleteMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -489,6 +554,10 @@
       <workItem from="1585051255394" duration="755000" />
       <workItem from="1585055692518" duration="247000" />
       <workItem from="1585285045769" duration="33827000" />
+      <workItem from="1585368800070" duration="9020000" />
+      <workItem from="1585388012338" duration="201000" />
+      <workItem from="1585388272958" duration="5000" />
+      <workItem from="1585454837169" duration="5195000" />
     </task>
     <servers />
   </component>
@@ -515,10 +584,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="507" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1585288200305" />
-    <state x="900" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1585038453712">
+    <state x="900" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1585374348871">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="900" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585038453712" />
+    <state x="900" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585374348871" />
     <state x="499" y="187" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1584947977415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -531,54 +600,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="466" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585031561116" />
-    <state width="1252" height="90" key="GridCell.Tab.0.bottom" timestamp="1585324649543">
+    <state width="1252" height="143" key="GridCell.Tab.0.bottom" timestamp="1585471095107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="90" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585324649543" />
-    <state width="1252" height="90" key="GridCell.Tab.0.center" timestamp="1585324649543">
+    <state width="1252" height="143" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585471095107" />
+    <state width="1252" height="143" key="GridCell.Tab.0.center" timestamp="1585471095106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="90" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585324649543" />
-    <state width="1252" height="90" key="GridCell.Tab.0.left" timestamp="1585324649543">
+    <state width="1252" height="143" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585471095106" />
+    <state width="1252" height="143" key="GridCell.Tab.0.left" timestamp="1585471095106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="90" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585324649543" />
-    <state width="1252" height="90" key="GridCell.Tab.0.right" timestamp="1585324649543">
+    <state width="1252" height="143" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585471095106" />
+    <state width="1252" height="143" key="GridCell.Tab.0.right" timestamp="1585471095107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="90" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585324649543" />
-    <state width="1252" height="90" key="GridCell.Tab.1.bottom" timestamp="1585324649543">
+    <state width="1252" height="143" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585471095107" />
+    <state width="1252" height="143" key="GridCell.Tab.1.bottom" timestamp="1585471095107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="90" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585324649543" />
-    <state width="1252" height="90" key="GridCell.Tab.1.center" timestamp="1585324649543">
+    <state width="1252" height="143" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585471095107" />
+    <state width="1252" height="143" key="GridCell.Tab.1.center" timestamp="1585471095107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="90" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585324649543" />
-    <state width="1252" height="90" key="GridCell.Tab.1.left" timestamp="1585324649543">
+    <state width="1252" height="143" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585471095107" />
+    <state width="1252" height="143" key="GridCell.Tab.1.left" timestamp="1585471095107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="90" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585324649543" />
-    <state width="1252" height="90" key="GridCell.Tab.1.right" timestamp="1585324649543">
+    <state width="1252" height="143" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585471095107" />
+    <state width="1252" height="143" key="GridCell.Tab.1.right" timestamp="1585471095107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="90" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585324649543" />
-    <state width="1252" height="90" key="GridCell.Tab.2.bottom" timestamp="1585324649544">
+    <state width="1252" height="143" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585471095107" />
+    <state width="1252" height="143" key="GridCell.Tab.2.bottom" timestamp="1585471095108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="90" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585324649544" />
-    <state width="1252" height="90" key="GridCell.Tab.2.center" timestamp="1585324649544">
+    <state width="1252" height="143" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585471095108" />
+    <state width="1252" height="143" key="GridCell.Tab.2.center" timestamp="1585471095107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="90" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1585324649544" />
-    <state width="1252" height="90" key="GridCell.Tab.2.left" timestamp="1585324649543">
+    <state width="1252" height="143" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1585471095107" />
+    <state width="1252" height="143" key="GridCell.Tab.2.left" timestamp="1585471095107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="90" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1585324649543" />
-    <state width="1252" height="90" key="GridCell.Tab.2.right" timestamp="1585324649544">
+    <state width="1252" height="143" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1585471095107" />
+    <state width="1252" height="143" key="GridCell.Tab.2.right" timestamp="1585471095108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1252" height="90" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1585324649544" />
+    <state width="1252" height="143" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1585471095108" />
     <state width="1252" height="207" key="GridCell.Tab.3.bottom" timestamp="1585029975403">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -603,10 +672,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="320" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585031565114" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585285164916">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585454837016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585285164916" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585454837016" />
     <state x="485" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583992598972">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

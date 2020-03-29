@@ -109,8 +109,13 @@ public class UserServlet extends BaseServlet {
         if((userSession.get(username)) == null){    //未登录，需要更新session
             return true;
         } else if ( (userSession.get(username)) != null && request.getSession().getId() != userSession.get(username).getId()){  //新的浏览完登陆，需要更新session
-            userSession.get(username).invalidate(); //将其下线
-            return true;
+            try {
+                userSession.get(username).invalidate(); //将其下线
+            } catch (Exception e){
+
+            } finally {
+                return true;
+            }
         } else {     //同一浏览器登陆不需要更新session
             return false;
         }
