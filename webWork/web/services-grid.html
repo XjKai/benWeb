@@ -9,7 +9,7 @@
     <meta name="description" content="">
 
     <!-- ========== Page Title ========== -->
-    <title></title>
+    <title>百恩芯</title>
 
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
@@ -117,10 +117,21 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
                         <li class="dropdown">
-                            <a href="index"   >首页</a>
+                            <a href="index" class="dropdown-toggle active" data-toggle="dropdown" >首页</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index#introduction">公司简介</a></li>
+                                <li><a href="index#technology">核心技术</a></li>
+                                <li><a href="index#product">最新产品</a></li>
+                                <li><a href="index#honor">公司荣誉</a></li>
+                            </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="services-grid.html" class="active"  >产品与服务</a>
+                            <a href="services-grid.html" class="dropdown-toggle active" data-toggle="dropdown"  >技术与产品</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#application">应用领域</a></li>
+                                <li><a href="#product1">智芯2.0</a></li>
+                                <li><a href="#environment">生产环境</a></li>
+                            </ul>
                         </li>
                         <li class="dropdown">
                             <a href="team-grid.html" class=""  >团队</a>
@@ -161,8 +172,9 @@
     </div>
     <!-- End Breadcrumb -->
 
-    <!-- Start Services 
+    <!-- Start application
     ============================================= -->
+    <a name="application"></a>
     <div class="services-area inc-list default-padding bottom-less">
         <div class="container">
             <div class="row">
@@ -265,11 +277,12 @@
             </div>
         </div>
     </div>
-    <!-- End Services -->
+    <!-- End application -->
 
     <!-- Start Features
 ============================================= -->
-    <div class="features-area bg-gray default-padding ">
+    <a name="product1"></a>
+    <div   class="features-area bg-gray default-padding ">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -283,16 +296,22 @@
             <div class="row">
                 <!-- Start About -->
                 <div class="about-content">
-                    <div class="col-md-6 thumb-box inc-video">
+                    <div class="col-md-5 thumb-box inc-video">
                         <div class="thumb">
                             <img src="assets/img/services/16.png" alt="Thumb">
+                            <div title="点击观看演示视频">
+                                <a  href="assets/video/v1.webm" class="popup-youtube video-play-button item-center" >
+                                    <i class="fa fa-play "  style="  transform:rotate(0deg) !important;"></i>
+                                </a>
+                            </div>
                         </div>
                         <div class="info text-center" >
                             <p>智芯2.0</p>
-                            <p> &#12288</p>
+                            <br>
                         </div>
                     </div>
-                    <div class="col-md-6 about-items left-content">
+
+                    <div class="col-md-7 about-items left-content">
                         <h2>多靶标纳米光学生物芯片智能分析系统——智芯2.0系统</h2>
                         <p>
                             &#12288&#12288系统采用自主研发的纳米光学传感器，与微流控技术结合，并开发特有的智能终端APP与微型光纤光谱仪结合组成一套智能化生物分子分析检测系统；项目主要包括以下技术领域：纳米光学表面等离激元传感技术，纳米压印技术，微流控技术，光机系统集成技术，传感系统硬件与用户端智能APP整合技术、实验数据人工智能分析。
@@ -304,6 +323,7 @@
                             &#12288&#12288智能化即时检测系统采用微型光纤光谱仪和微型光源，通过结合纳米光学的系统模拟，设计出高效紧凑的垂直入射、反射型光路，省去大量的设备冗余空间和成本，使得整个系统更显轻便小巧，容易携带，并在垂直入射的前提下，保证系统的测量精度。
                             同时还采用无线模块或4G模块与服务器建立通讯，结合大数据人工智能分析技术（最新深度学习健康数据模型算法）进行检测数据的自动采集和分析，并通过手机APP给出智能检测分析预测报告。
                         </p>
+                        <br>
                     </div>
                 </div>
             </div>
@@ -368,18 +388,58 @@
                 </div>
             </div>
         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <br>
+                    <HR style="color: #0e76a8">
+                    <br>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <!-- Start About -->
+                <div class="about-content">
+                    <div class="col-md-4 text-center thumb-box inc-video">
+                        <br>
+                        <h3  class="textBorder " style="color: #1692B8">"优越的检测指标"</h3>
+                        <div class="thumb">
+                            <img src="assets/img/services/17.png" alt="Thumb">
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center thumb-box inc-video">
+                        <br>
+                        <h3 class="textBorder " style="color: #1692B8">"移动终端"</h3>
+                        <div class="thumb">
+                            <img src="assets/img/services/18.png" alt="Thumb">
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center thumb-box inc-video">
+                        <br>
+                        <h3 class="textBorder " style="color: #1692B8">"人工智能疾病预测"</h3>
+                        <div class="thumb">
+                            <img src="assets/img/services/19.png" alt="Thumb">
+                            <h5>肿瘤标志物的种类</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- End Features -->
 
     <!-- Start  environment
     ============================================= -->
+    <a name="environment"></a>
     <div class="office-environment-area  default-padding">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 heading">
+                <div class="col-md-4 heading " >
                     <h2>生产环境</h2>
                     <p>
-                        标准化的产品研发车间，规模化生产
+                        公司初期投资超过300万，办公场地323平米其中包含200平米1000级洁净室，拥有标准化的产品研发车间，规模化生产。
                     </p>
                     <!--                    <a href="#" class="btn btn-theme border btn-md">View All</a>-->
                 </div>
@@ -443,7 +503,7 @@
                     </div>
                     <!-- End Single Item -->
                     <!-- Single Item -->
-                    <div class="col-md-3 col-sm-6 equal-height item">
+                    <div class="col-md-2 col-sm-6 equal-height item">
                         <div class="f-item link">
                             <h4>二维码</h4>
                             <img src="assets/img/QR.png" style="width: 90px;height: 90px">
@@ -451,15 +511,39 @@
                     </div>
                     <!-- End Single Item -->
                     <!-- Single Item -->
-                    <div class="col-md-3 col-sm-6 equal-height item">
-                        <div class="f-item ">
-                            <h4>友情链接</h4>
-                            <ul>
-                                <li><a href="http://www.lisenoptics.cn">莱森光学</a></li>
-                            </ul>
+                    <div class="col-md-4 col-sm-6 equal-height item">
+                        <!--                        <div class="f-item ">-->
+                        <!--                            <h4>合作企业</h4>-->
+                        <!--                            <ul>-->
+                        <!--                                <li><a href="http://www.lisenoptics.cn">莱森光学</a></li>-->
+                        <!--                            </ul>-->
+                        <!--                        </div>-->
+                        <div class="clients-box   equal-height item">
+                            <h4>合作企业</h4>
+                            <div class="clients-items clients-carousel owl-carousel owl-theme ">
+                                <div class="item">
+                                    <a href="http://www.lisenoptics.cn"><img src="assets/img/part/1.png" alt="Thumb"></a></li>
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/part/2.png" alt="Thumb">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/part/3.png" alt="Thumb">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/part/4.png" alt="Thumb">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/part/5.png" alt="Thumb">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/part/6.png" alt="Thumb">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- End Single Item -->
+
                 </div>
             </div>
         </div>

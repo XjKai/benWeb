@@ -9,7 +9,7 @@
     <meta name="description" content="">
 
     <!-- ========== Page Title ========== -->
-    <title>Home</title>
+    <title>百恩芯</title>
 
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
@@ -118,10 +118,21 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
                         <li class="dropdown">
-                            <a href="index" class="active"  >首页</a>
+                            <a href="index" class="dropdown-toggle active" data-toggle="dropdown" >首页</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#introduction">公司简介</a></li>
+                                <li><a href="#technology">核心技术</a></li>
+                                <li><a href="#product">最新产品</a></li>
+                                <li><a href="#honor">公司荣誉</a></li>
+                            </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="services-grid.html" class=""  >技术与产品</a>
+                            <a href="services-grid.html" class="dropdown-toggle active" data-toggle="dropdown"  >技术与产品</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="services-grid.html#application">应用领域</a></li>
+                                <li><a href="services-grid.html#product1">智芯2.0</a></li>
+                                <li><a href="services-grid.html#environment">生产环境</a></li>
+                            </ul>
                         </li>
                         <li class="dropdown">
                             <a href="team-grid.html" class=""  >团队</a>
@@ -223,9 +234,10 @@
         </div>
     </div>
     <!-- End Banner -->
-    <!-- Start Features
+    <!-- Start introduction
 ============================================= -->
-    <div class="features-area default-padding">
+    <a name="introduction"></a>
+    <div class="features-area default-padding" >
         <!-- Side Bg -->
         <div class="side-bg right">
             <img src="assets/img/shape-2.png" alt="Thumb">
@@ -260,8 +272,11 @@
                 <div class="col-md-9 about-items">
                     <h5>公司简介</h5>
                     <h2>致力于芯片及系统产业化</h2>
-                    <p>
-                        &#12288&#12288百恩芯科技有限公司创建与2017年，位于福建省厦门市，是一家提供小型化、高灵敏、无标记的生物分子光学传感检测分析系统解决方案的高科技公司，我们专注于商业化生物分子光学传感检测分析产品的研发和销售 ,技术团队都是来源国内重点高校微纳光学，物理专业，并且从事了多年的纳米加工、材料与器件研究，拥有丰富的生产制造经验和传感器件开发经验。公司初期投资超过300万，办公场地323平米其中200平米为无尘车间。美国百恩诺科技投资，莱森光学（深圳）负责光机集成、厦门为纳光电负责芯片代工。
+                    <p style="line-height: 3">
+                       <strong> &#12288&#12288百恩芯科技有限公司于2017年在福建省厦门市创办，是一家提供小型化、高灵敏、免标记、定制化的生物分子光学传感检测分析系统解决方案的高新科技公司。
+                           我们专注于打造商业化生物分子光学传感检测分析产品的研发、生产、售后及技术咨询的一站式服务平台 ,研发团队均来自国内外知名高校微纳光电子技术，
+                           微流控传感和人工智能等专业，拥有丰富的微纳米加工、器件开发与检测设备生产制造经验。公司初期投资超过300万，办公场地323平米其中包含200平米1000级洁净室。
+                           美国百恩诺科、莱森光学（深圳）、厦门为纳光电等多家企业参与产品投资与研发。</strong>
                     </p>
 <!--                    <p>-->
 <!--                        &#12288&#12288我们融合尖端的纳米光学设计技术、纳米压印技术、相干光刻技术和微流控芯片技术实现高端生物芯片技术的研发。-->
@@ -270,10 +285,11 @@
             </div>
         </div>
     </div>
-    <!-- End Features -->
+    <!-- End introduction -->
 
     <!-- Start  Product
 ============================================= -->
+    <a name="product"></a>
     <div class="about-area bg-gray default-padding">
         <!-- Side Bg -->
         <div class="side-bg">
@@ -300,12 +316,12 @@
                                 </p>
                             </li>
                         </ul>
-                        <a href="services-grid.html" class="btn circle btn-theme border btn-sm">详情</a>
+                        <a href="services-grid.html#product1" class="btn circle btn-theme border btn-sm">详情</a>
                     </div>
                     <div class="col-md-6 thumb-box inc-video">
                         <div class="thumb">
                             <img src="assets/img/about/6.jpg" alt="Thumb">
-                            <div class="video">
+                            <div title="点击观看演示视频" class="video">
                                 <a href="assets/video/v1.webm" class="popup-youtube video-play-button item-center">
                                     <i class="fa fa-play"></i>
                                 </a>
@@ -319,8 +335,9 @@
     </div>
     <!-- End  Product -->
 
-    <!-- Start Tech
+    <!-- Start technology
     ============================================= -->
+    <a name="technology"></a>
     <div class="services-area carousel-shadow inc-list  default-padding">
         <div class="container">
             <div class="row">
@@ -431,11 +448,12 @@
             </div>
         </div>
     </div>
-    <!-- End Tech -->
+    <!-- End technology -->
 
 
-    <!-- Start Portfolio
+    <!-- Start honor
     ============================================= -->
+    <a name="honor"></a>
     <div class="portfolio-area bg-gray default-padding">
         <div class="container">
             <div class="row">
@@ -455,8 +473,8 @@
                     <div class="col-md-12 portfolio-content">
                         <div class="mix-item-menu text-center">
                             <button id="bt1" class="active" data-filter=".patent">相关专利</button>
-                            <button data-filter=".paper">相关论文</button>
-                            <button data-filter=".report">相关报道</button>
+                            <button id="bt2" data-filter=".paper">相关论文</button>
+                            <button id="bt3" data-filter=".report">相关报道</button>
                         </div>
                         <!-- End Mixitup Nav-->
                         <div class="row magnific-mix-gallery masonary ">
@@ -465,7 +483,7 @@
                                 <div class="pf-item patent ">
                                     <div class="item-effect">
                                         <img src="assets/img/portfolio/1.jpg" alt="thumb">
-                                        <a href="assets/img/portfolio/1.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
+                                        <a href="assets/img/portfolio/1_1.png" class="item popup-link"><i class="fas fa-plus"></i></a>
                                     </div>
                                     <div class="info">
                                         <div class="cat">
@@ -481,7 +499,7 @@
                                 <div class="pf-item patent  ">
                                     <div class="item-effect">
                                         <img src="assets/img/portfolio/2.jpg" alt="thumb">
-                                        <a href="assets/img/portfolio/2.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
+                                        <a href="assets/img/portfolio/2_2.png" class="item popup-link"><i class="fas fa-plus"></i></a>
                                     </div>
                                     <div class="info">
                                         <div class="cat">
@@ -497,7 +515,7 @@
                                 <div class="pf-item patent  ">
                                     <div class="item-effect">
                                         <img src="assets/img/portfolio/3.jpg" alt="thumb">
-                                        <a href="assets/img/portfolio/3.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
+                                        <a href="assets/img/portfolio/3_3.png" class="item popup-link"><i class="fas fa-plus"></i></a>
                                     </div>
                                     <div class="info">
                                         <div class="cat">
@@ -513,7 +531,7 @@
                                 <div class="pf-item patent  ">
                                     <div class="item-effect">
                                         <img src="assets/img/portfolio/4.jpg" alt="thumb">
-                                        <a href="assets/img/portfolio/4.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
+                                        <a href="assets/img/portfolio/4_4.png" class="item popup-link"><i class="fas fa-plus"></i></a>
                                     </div>
                                     <div class="info">
                                         <div class="cat">
@@ -529,7 +547,7 @@
                                 <div class="pf-item paper  " style="display: none">
                                     <div class="item-effect">
                                         <img src="assets/img/portfolio/5.jpg" alt="thumb">
-                                        <a href="assets/img/portfolio/5.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
+                                        <a href="assets/img/portfolio/5_5.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
                                     </div>
                                     <div class="info">
                                         <div class="cat">
@@ -545,7 +563,7 @@
                                 <div class="pf-item paper  " style="display: none">
                                     <div class="item-effect">
                                         <img src="assets/img/portfolio/6.jpg" alt="thumb">
-                                        <a href="assets/img/portfolio/6.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
+                                        <a href="assets/img/portfolio/6_6.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
                                     </div>
                                     <div class="info">
                                         <div class="cat">
@@ -561,7 +579,7 @@
                                 <div class="pf-item paper  " style="display: none">
                                     <div class="item-effect">
                                         <img src="assets/img/portfolio/7.jpg" alt="thumb">
-                                        <a href="assets/img/portfolio/7.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
+                                        <a href="assets/img/portfolio/7_7.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
                                     </div>
                                     <div class="info">
                                         <div class="cat">
@@ -577,7 +595,7 @@
                                 <div class="pf-item paper " style="display: none">
                                     <div class="item-effect">
                                         <img src="assets/img/portfolio/8.jpg" alt="thumb">
-                                        <a href="assets/img/portfolio/8.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
+                                        <a href="assets/img/portfolio/8_8.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
                                     </div>
                                     <div class="info">
                                         <div class="cat">
@@ -593,7 +611,7 @@
                                 <div class="pf-item report " style="display: none" >
                                     <div class="item-effect">
                                         <img src="assets/img/portfolio/9.jpg" alt="thumb">
-                                        <a href="assets/img/portfolio/9.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
+                                        <a href="assets/img/portfolio/9_9.png" class="item popup-link"><i class="fas fa-plus"></i></a>
                                     </div>
                                     <div class="info">
                                         <div class="cat">
@@ -609,7 +627,23 @@
                                 <div class="pf-item report " style="display: none" >
                                     <div class="item-effect">
                                         <img src="assets/img/portfolio/10.jpg" alt="thumb">
-                                        <a href="assets/img/portfolio/10.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
+                                        <a href="assets/img/portfolio/10_10.png" class="item popup-link"><i class="fas fa-plus"></i></a>
+                                    </div>
+                                    <div class="info">
+                                        <div class="cat">
+                                            <div class="items">
+                                                <span >报道</span>
+                                            </div>
+                                        </div>
+                                        <h4><a href="javascript:;">国内媒体报道</a></h4>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="pf-item report " style="display: none" >
+                                    <div class="item-effect">
+                                        <img src="assets/img/portfolio/11.jpg" alt="thumb">
+                                        <a href="assets/img/portfolio/11_11.jpg" class="item popup-link"><i class="fas fa-plus"></i></a>
                                     </div>
                                     <div class="info">
                                         <div class="cat">
@@ -628,11 +662,12 @@
             </div>
         </div>
     </div>
-    <!-- End Portfolio -->
+    <!-- End honor -->
+
 
     <!-- Start Blog Area
     ============================================= -->
-    <div class="blog-area default-padding  bottom-less">
+    <div class="blog-area  default-padding  bottom-less">
         <div class="container">
             <div class="container">
             <div class="row">
@@ -678,6 +713,7 @@
     </div>
     <!-- End Blog Area -->
 
+
     <!-- Start Footer 
     ============================================= -->
     <footer class="bg-dark text-light">
@@ -713,7 +749,7 @@
                     </div>
                     <!-- End Single Item -->
                     <!-- Single Item -->
-                    <div class="col-md-3 col-sm-6 equal-height item">
+                    <div class="col-md-2 col-sm-6 equal-height item">
                         <div class="f-item link">
                             <h4>二维码</h4>
                             <img src="assets/img/QR.png" style="width: 90px;height: 90px">
@@ -721,15 +757,39 @@
                     </div>
                     <!-- End Single Item -->
                     <!-- Single Item -->
-                    <div class="col-md-3 col-sm-6 equal-height item">
-                        <div class="f-item ">
-                            <h4>友情链接</h4>
-                            <ul>
-                                <li><a href="http://www.lisenoptics.cn">莱森光学</a></li>
-                            </ul>
+                    <div class="col-md-4 col-sm-6 equal-height item">
+<!--                        <div class="f-item ">-->
+<!--                            <h4>合作企业</h4>-->
+<!--                            <ul>-->
+<!--                                <li><a href="http://www.lisenoptics.cn">莱森光学</a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+                        <div class="clients-box   equal-height item">
+                            <h4>合作企业</h4>
+                            <div class="clients-items clients-carousel owl-carousel owl-theme ">
+                                <div class="item">
+                                    <a href="http://www.lisenoptics.cn"><img src="assets/img/part/1.png" alt="Thumb"></a></li>
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/part/2.png" alt="Thumb">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/part/3.png" alt="Thumb">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/part/4.png" alt="Thumb">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/part/5.png" alt="Thumb">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/part/6.png" alt="Thumb">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- End Single Item -->
+
                 </div>
             </div>
         </div>
@@ -768,6 +828,8 @@
 
     <script>
         window.onload=function(){
+            document.getElementById("bt3").click();
+            document.getElementById("bt2").click();
             document.getElementById("bt1").click();
         }
     </script>
